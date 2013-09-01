@@ -22,9 +22,10 @@
 					return;
 
 				ed.windowManager.open({
-					file : url + '/link.htm',
-					width : 480 + parseInt(ed.getLang('advlink.delta_width', 0)),
-					height : 400 + parseInt(ed.getLang('advlink.delta_height', 0)),
+					title : ed.settings.link.title,
+					url : ed.settings.link.url,
+					width : ed.settings.link.width + parseInt(ed.getLang('advlink.delta_width', 0)),
+					height : ed.settings.link.height + parseInt(ed.getLang('advlink.delta_height', 0)),
 					inline : 1
 				}, {
 					plugin_url : url
