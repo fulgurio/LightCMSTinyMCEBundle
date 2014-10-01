@@ -22,7 +22,7 @@ After that, you need to install LightCMSTinyMCEBundle. It's easy :
 Add the following lines in your `deps` file (you can do at the same time of DoctrineFixturesBundle):
 
 ``` ini
-[FulgurioLightCMSBundle]
+[LightCMSTinyMCEBundle]
     git=http://github.com/fulgurio/LightCMSTinyMCEBundle.git
     target=/bundles/Fulgurio/LightCMSTinyMCEBundle
 ```
