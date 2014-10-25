@@ -59,7 +59,7 @@ public function registerBundles()
 {
     $bundles = array(
         // ...
-        new Fulgurio\LightCMSTinyMCEBundle\LightCMSTinyMCEBundle(),
+        new Fulgurio\LightCMSTinyMCEBundle\Fulgurio\LightCMSTinyMCEBundle(),
     );
 }
 ```
