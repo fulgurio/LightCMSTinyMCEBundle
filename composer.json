@@ -1,0 +1,26 @@
+{
+    "name": "fulgurio/light-cms-tinymce-bundle",
+    "description": "Tinymce module of LigthCMS bundle",
+    "type": "symfony-bundle",
+    "authors": [{
+            "name": "Fulgurio",
+            "homepage": "http://fulgurio.net"
+        }
+    ],
+    "keywords": [
+        "lightcms",
+        "wysiwyg editor"
+    ],
+    "homepage": "http://github.com/fulgurio/LightCMSTinyMCEBundle",
+    "license": "GPL",
+    "require": {
+        "fulgurio/light-cms-bundle": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Fulgurio\\LightCMSTinyMCEBundle": ""
+        }
+    },
+    "target-dir": "Fulgurio/LightCMSTinyMCEBundle",
+    "minimum-stability": "dev"
+}
